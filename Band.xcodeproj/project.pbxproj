@@ -14,6 +14,8 @@
 		29B80F311C0F718100D22239 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29B80F301C0F718100D22239 /* Images.xcassets */; };
 		29B80F341C0F718100D22239 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29B80F321C0F718100D22239 /* LaunchScreen.xib */; };
 		29B80F401C0F718100D22239 /* BandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B80F3F1C0F718100D22239 /* BandTests.m */; };
+		29B80F4B1C0F721500D22239 /* ABCBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B80F4A1C0F721500D22239 /* ABCBand.m */; };
+		29B80F511C103AEA00D22239 /* ABCBandsListTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B80F501C103AEA00D22239 /* ABCBandsListTableTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +34,7 @@
 		29B80F251C0F718100D22239 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B80F271C0F718100D22239 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		29B80F281C0F718100D22239 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		29B80F2A1C0F718100D22239 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		29B80F2A1C0F718100D22239 /* ABCBandDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABCBandDetailsViewController.h; sourceTree = "<group>"; };
 		29B80F2B1C0F718100D22239 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		29B80F2E1C0F718100D22239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29B80F301C0F718100D22239 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -40,6 +42,10 @@
 		29B80F391C0F718100D22239 /* BandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B80F3E1C0F718100D22239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29B80F3F1C0F718100D22239 /* BandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BandTests.m; sourceTree = "<group>"; };
+		29B80F491C0F721500D22239 /* ABCBand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABCBand.h; path = ../ABCBand.h; sourceTree = "<group>"; };
+		29B80F4A1C0F721500D22239 /* ABCBand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABCBand.m; path = ../ABCBand.m; sourceTree = "<group>"; };
+		29B80F4F1C103AEA00D22239 /* ABCBandsListTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABCBandsListTableTableViewController.h; path = ../ABCBandsListTableTableViewController.h; sourceTree = "<group>"; };
+		29B80F501C103AEA00D22239 /* ABCBandsListTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABCBandsListTableTableViewController.m; path = ../ABCBandsListTableTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +87,13 @@
 		29B80F221C0F718100D22239 /* Band */ = {
 			isa = PBXGroup;
 			children = (
+				29B80F491C0F721500D22239 /* ABCBand.h */,
+				29B80F4A1C0F721500D22239 /* ABCBand.m */,
+				29B80F4F1C103AEA00D22239 /* ABCBandsListTableTableViewController.h */,
+				29B80F501C103AEA00D22239 /* ABCBandsListTableTableViewController.m */,
 				29B80F271C0F718100D22239 /* AppDelegate.h */,
 				29B80F281C0F718100D22239 /* AppDelegate.m */,
-				29B80F2A1C0F718100D22239 /* ViewController.h */,
+				29B80F2A1C0F718100D22239 /* ABCBandDetailsViewController.h */,
 				29B80F2B1C0F718100D22239 /* ViewController.m */,
 				29B80F2D1C0F718100D22239 /* Main.storyboard */,
 				29B80F301C0F718100D22239 /* Images.xcassets */,
@@ -221,7 +231,9 @@
 			files = (
 				29B80F2C1C0F718100D22239 /* ViewController.m in Sources */,
 				29B80F291C0F718100D22239 /* AppDelegate.m in Sources */,
+				29B80F511C103AEA00D22239 /* ABCBandsListTableTableViewController.m in Sources */,
 				29B80F261C0F718100D22239 /* main.m in Sources */,
+				29B80F4B1C0F721500D22239 /* ABCBand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Band/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Band/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
